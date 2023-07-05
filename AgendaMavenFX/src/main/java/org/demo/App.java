@@ -22,15 +22,15 @@ public class App extends Application {
     
     public App(){
         // Agregar algunos datos
-        personData.add(new Persona("Rocky","Balboa"));
-        personData.add(new Persona("Avril", "Lavigne")); 
-        personData.add(new Persona("Koe", "Wetzel"));
-	personData.add(new Persona("David", "Bowie"));
-	personData.add(new Persona("Peter", "Parker"));
-	personData.add(new Persona("Wanda", "Maximoff"));
-	personData.add(new Persona("Mario", "Vargas"));
-	personData.add(new Persona("Linda", "Steff"));
-	personData.add(new Persona("Lizeth", "Ortiz"));
+        personData.add(new Persona("Hans", "Muster"));
+	personData.add(new Persona("Ruth", "Mueller"));
+	personData.add(new Persona("Heinz", "Kurz"));
+	personData.add(new Persona("Cornelia", "Meier"));
+	personData.add(new Persona("Werner", "Meyer"));
+	personData.add(new Persona("Lydia", "Kunz"));
+	personData.add(new Persona("Anna", "Best"));
+	personData.add(new Persona("Stefan", "Meier"));
+	personData.add(new Persona("Martin", "Mueller"));
     }
     
     public ObservableList<Persona> getPersonaData() {
